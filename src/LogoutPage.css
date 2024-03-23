@@ -1,0 +1,28 @@
+.page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #619cbf;
+}
+
+.logout-page {
+  width: 300px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.logout-page h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.logout-page p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+}

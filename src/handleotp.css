@@ -1,0 +1,53 @@
+/* OTPForm.css */
+.page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #619cbf;
+}
+
+.otp-form {
+  width: 300px;
+  margin: 50vh auto; /* Center the form vertically and horizontally */
+  transform: translateY(-50%); /* Adjust vertically to center */
+  padding: 20px;
+  background-color: #ecf3f7;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.otp-form input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.otp-form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4c77af;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.otp-form button:hover {
+  background-color: #0a2246;
+}
+
+.otp-form .success-message {
+  color: green;
+}
+
+.otp-form .failure-message {
+  color: red;
+}

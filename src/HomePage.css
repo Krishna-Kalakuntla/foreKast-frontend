@@ -1,0 +1,113 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #d79169;
+}
+
+.page-container-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.logout-button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.heading {
+  position: absolute;
+  top: 50px;
+}
+
+.weather-button {
+  background-color: #0b1633;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 230px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 130px;
+  border-radius: 20px;
+}
+
+.selected-weather-container {
+  position: absolute;
+  left: 535px;
+  top: 270px;
+  background-color: #f3f4f6;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.default-weather-container {
+  position: absolute;
+  left: 35px;
+  top: 200px;
+  background-color: #f3f4f6;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.default-weather-containertwo {
+  position: absolute;
+  left: 950px;
+  top: 200px;
+  background-color: #f3f4f6;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.default-weather-containerthree {
+  position: absolute;
+  left: 35px;
+  top: 700px;
+  background-color: #f3f4f6;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.default-weather-containerfour {
+  position: absolute;
+  left: 950px;
+  top: 700px;
+  background-color: #f3f4f6;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.delete-button {
+  background-color: #ff6659;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.delete-button:hover {
+  background-color: #f44336;
+}
+.update-location-button {
+  background-color: rgb(79, 157, 79);
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.update-location-button:hover {
+  background-color: #14972e;
+}
